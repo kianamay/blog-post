@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <h1>Kiana Blogs</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <section class="navbar">
+        <nav>
+          <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
-    <section id="blog">
+   
+    <section>
       <h2>My Blog Posts</h2>
-      <article class="blog post">
+    <section id="blog">
+      <article class="blog-post">
         <h3>The Best Boba near Michigan State University Ranked</h3>
-        <address class="author"><a rel="author" href="https://www.linkedin.com/in/kiana-may/">Kiana May</a></address>
+        <address class="author"><a class="blog-author" rel="author"  href="https://www.linkedin.com/in/kiana-may/">Kiana May</a></address>
         <time datetime="2023-10-29" title="October 29, 2023">Oct 29, 2023</time>
         <p>As an avid boba lover driven by a passion for exceptional taste and service, I am excited to present my definitive guide to the top boba spots on campus.</p>
         <p>I will be ranking the following stores: Koala, MoMo Tea, Gong Cha, and Mogee Tea</p>
@@ -90,7 +94,7 @@
         </table>
         <img src="boba.jpeg" alt="3 boba drinks from momo">
       </article>
-      <article class="blog post">
+      <article class="blog-post">
         <h3>Eating my way through Japan and Korea</h3>
         <address class="author"><a rel="author" href="https://www.linkedin.com/in/kiana-may/">Kiana May</a></address>
         <time datetime="2023-06-27" title="June 27, 2023">Jun 27, 2023</time>
@@ -120,6 +124,7 @@
         </label>
         <button>Subscribe</button>
       </form>
+    </section>
     </section>
   </body>
 </html>
