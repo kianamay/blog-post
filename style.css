@@ -31,6 +31,9 @@ header{
 .navbar ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 a:link {
     color:#FEF3EB;
   }
@@ -41,7 +44,13 @@ a:visited {
 a:hover{
     color:#FAC69E;
 }
-
+.author a{
+    text-decoration:underline;
+    color:#92766b;
+}
+.author a:hover{
+    color:#56453F;
+}
 .form{
     padding: 30px;
     margin: 40px;
